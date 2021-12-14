@@ -19,7 +19,7 @@ class Canvas:
         self.height = height
         self.color = color
 
-        self.data = np.zeros((self.height, self.width, 3))
+        self.data = np.zeros((self.height, self.width, 3), dtype=np.uint8)
         self.data[:] = [self.color]
 
     def makeImage(self, imgpath):
@@ -65,4 +65,10 @@ class Rectangle:
 
 
 
-
+# canvas = Canvas(height=50, width=30, color=(255, 255, 255))
+#
+# s1 = Sqaure(Xaxis=25, Yaxis=15, SideLength=5, Color=(0, 0,0))
+#
+# s1.draw(canvas)
+#
+# canvas.makeImage('canvas2.png')
