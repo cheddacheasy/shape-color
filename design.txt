@@ -1,0 +1,26 @@
+Title: Math Painting
+
+Description: An app that gets the start coordinates from the user to create a geometric shape such as a rectangle and a square. We will also get the color for said shape(s).
+After processing the inputs. We will then produce an image file canvas that shows the dimensions of the shape and the colors of the shape.
+
+
+Objects:
+    Sqaure:
+        attrs:X-axis, Y-axis, Side length, Color, Canvas
+
+    Sqaure:
+        attrs:X-axis, Y-axis, Width length, Height length, Color, Canvas
+
+
+    Canvas:
+        attrs: width, height, color, and make(imagepath)
+
+
+
+
+
+
+
+
+
+
